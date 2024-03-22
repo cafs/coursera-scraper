@@ -19,7 +19,7 @@ def scrape_courses_by_keyword(keyword):
 
     options = webdriver.ChromeOptions()
     options.add_argument("--headless")  # Optional: run Chrome in headless mode
-    driver = webdriver.Chrome(options=options, executable_path="/path/to/chromedriver")  # Adjust path
+    driver = webdriver.Chrome(options=options, executable_path="C:\Users\Lenovo\Downloads\Mywork\chromedriver-win64")  # Adjust path
 
     driver.get(url)
 
